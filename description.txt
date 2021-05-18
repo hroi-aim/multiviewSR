@@ -13,6 +13,9 @@ main file: ConfocalSIM_PhotonReassignment.m which will call Shrink.m
 4) joint decon of multiple 1D SIM at different rotation angles:
 main file: JointDecon_2DSIM_DL_3views_6angles.m
 
+5) 1D SIM deep learning training with RCAN:
+RCAN_1DSIM_train.py and RCAN_1DSIM_apply.py
+
 General functions that will be called in the above main functions:
 ReadTifStack.m and WriteTifStack.m: reading and writing TIF stacks
 ConvFFT_S.m: 3D convolution
