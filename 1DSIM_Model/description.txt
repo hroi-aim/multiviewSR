@@ -1,0 +1,1 @@
+This RCAN model and test data is for T cell expressing H2B-GFP.  
