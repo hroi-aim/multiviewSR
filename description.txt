@@ -1,16 +1,16 @@
 Main functions: 
-1) Triple-view transofrmation, registration and deconvolution in diffration-limited mode and super reoslution mode:
+1) Triple-view transformation, registration and deconvolution in diffraction-limited mode and super reoslution mode:
 main file: ConfocalSlit_Decon.m which will call 
 Confocal_PreProcessing_PTZMode.m if top views are acquired in objective PZT mode
 or Confocal_PreProcessing_StageMode.m if top views are acquired in stage scanning mode
 
-2) simultion of system PSF
+2) simulation of system PSF:
 main file: PSF_Generator.m
 
-3) reconstuction SIM images: 
+3) reconstruction of SIM images:
 main file: ConfocalSIM_PhotonReassignment.m which will call Shrink.m
 
-4) joint decon of multiple 1D SIM at different rotation angles:
+4) joint deconvolution of multiple 1D SIM at different rotation angles:
 main file: JointDecon_2DSIM_DL_3views_6angles.m
 
 5) 1D SIM deep learning training with RCAN:
@@ -19,7 +19,7 @@ RCAN_1DSIM_train.py and RCAN_1DSIM_apply.py
 General functions that will be called in the above main functions:
 ReadTifStack.m and WriteTifStack.m: reading and writing TIF stacks
 ConvFFT_S.m: 3D convolution
-align_size: align 3D data into a specific size
+align_size:  padding 3D data with specific size
 
 
 
