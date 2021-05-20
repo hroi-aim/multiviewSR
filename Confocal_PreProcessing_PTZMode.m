@@ -1,4 +1,4 @@
-function [stack_out, cropBox] = Confocal_PreProcessing_PTZMode(stack,view, Step, SIM_Mode, crop_Mode, cropBox)
+function [stack_out, cropBox] = Confocal_PreProcessing_PZTMode(stack,view, Step, SIM_Mode, crop_Mode, cropBox)
 
 w = warning('off', 'MATLAB:imagesci:tiffmexutils:libtiffWarning');
 warning('off', 'MATLAB:imagesci:tifftagsread:expectedTC1_TranslatedagDataFormat');
