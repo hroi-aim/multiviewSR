@@ -3,6 +3,6 @@ This is raw myocyte data imaged with triple-view diffraction limited mode and ob
 8B_1.tif is top B view; pixel size - 162.5 nm in xy; 1 um in z;
 8C_1.tif is top C view; pixel size - 97.5 nm in xy; 0.5 um in z.
 
-Users can test the transformation, registration and joint deconvolution with ConfocalSlit_Decon.m
+Users can test transformation, registration and joint deconvolution with ConfocalSlit_Decon.m
 
   
